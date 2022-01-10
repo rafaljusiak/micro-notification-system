@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "app_function": "app.app",
+        "aws_region": "eu-north-1",
+        "environment_variables": {
+            "SLACK_API_TOKEN": "xxxx-xxxxxxxxxxxx-xxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxx",
+            "SLACK_NOTIFICATIONS_CHANNEL": "#general",
+            "JIRA_URL": "https://xxxxxx.atlassian.net",
+            "JIRA_EMAIL": "xxxxxxxxxx@xxxxxxxx.com",
+            "JIRA_API_KEY": "xxxxxxxxxxxxxxxxx",
+            "JIRA_PROJECT": "xxx"
+        },
+        "profile_name": "private",
+        "project_name": "lsm",
+        "runtime": "python3.8",
+        "s3_bucket": "zappa-lsm",
+        "cors": true,
+        "binary_support": false
+    }
+}
