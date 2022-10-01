@@ -1,7 +1,10 @@
+discord.py==2.0.1
 flask==1.1.2
 flask-cors
+itsdangerous==2.0.1
 jira
+jinja2==3.0.3
 slackclient==2.9.3
 troposphere<3
 Werkzeug<1.0
-zappa==0.53.0
+zappa==0.54.2
