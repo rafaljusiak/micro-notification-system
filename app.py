@@ -39,8 +39,7 @@ def send():
         
     {message}
     
-    Pozdrawiam,
-    Michał z Zespołu Moja Matura
+    Pozdrawiam
     """
 
         jira.create_issue(
